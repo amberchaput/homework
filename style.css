@@ -1,0 +1,64 @@
+/* style sheet for homework */
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+article {
+    display: block;
+    background-color: none;
+    padding: 20px;
+    border: solid 5px black;
+    margin: 50px;
+    font-family: Century 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+section {
+    display: block;
+    background-color: bisque;
+    padding: 20px;
+    border: solid 5px black;
+    margin: 50px;
+    font-family: Century 'Franklin Gothic Medium';
+}
+
+aside  {
+    display: block;
+    background-color: bisque;
+    padding: 20px;
+    border: solid 5px black;
+    margin: 50px;
+    font-family: Century 'Franklin Gothic Medium';   
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+    font-family: Century 'Franklin Gothic Medium';
+}
