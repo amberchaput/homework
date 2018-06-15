@@ -4,7 +4,7 @@
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: cadetblue;
   }
   
   .topnav a {
@@ -18,39 +18,67 @@
   
   .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: cadetblue;
   }
   
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color:cadetblue;
     color: white;
   }
 
 article {
     display: block;
-    background-color: none;
+    background-color: cadetblue;
     padding: 20px;
-    border: solid 5px black;
+    border: dotted 3px black;
     margin: 50px;
     font-family: Century 'Franklin Gothic Medium';
     text-align: center;
+    color: #f2f2f2;
 }
 
 section {
     display: block;
-    background-color: bisque;
     padding: 20px;
-    border: solid 5px black;
+    border: dashed 3px black;
     margin: 50px;
     font-family: Century 'Franklin Gothic Medium';
 }
 
+form {
+    margin: 50px;
+    align-content: center;
+}
+
+input {
+    width: 90%;
+    height: 30px;
+    border-radius: 20px; 
+    border: dotted 1px grey; 
+    padding: 20px;
+    background-color: #ddd; 
+    opacity: 50%;
+}
+
+button {
+    height: 45px;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    width: 75px;
+    text-emphasis: bold; 
+}
+
+div { 
+    display: block; 
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    font-family: Century 'Franklin Gothic Medium';
+
+}
+
 aside  {
     display: block;
-    background-color: bisque;
-    padding: 20px;
-    border: solid 5px black;
-    margin: 50px;
     font-family: Century 'Franklin Gothic Medium';   
 }
 

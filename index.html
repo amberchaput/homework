@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-  <!-- Required meta tags ??? are these required? -->
+    <!-- Required meta tags ??? are these required? -->
  <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- boostrap css and css file -->
+
+<!-- boostrap css and css file -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
+ <!-- NAVIGATION -->
     <nav class="topnav">
         <a href="#images">Images</a>
         <a href="#videos">Videos</a>
@@ -25,22 +28,49 @@
             <h1>Ambrz Search Engine</h1>
             <p>ASE is a free, non-functional web browser developed by Amber herself, released in June 2018.</p>
           </article>
-
+          
+          <!-- not sure why but when I click the search button the size of the site shifts....hmmm.... -->
+          <form>
+            <div>
+              <input type="search" id="mySearch" name="q" placeholder="Search" aria-label="Search through site content">
+              <button>Search</button>
+            </div>
+          </form>
+          
             <section>
-                <h2>WWF</h2>
-                <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+                <h2>One Wave</h2>
+                <p>I was invited to go surfing and it turned to be a group of people who are a part of this initiative called One Wave. The purpose is to check in on friends on a weekly basis to ensure that ones mental health is in a good place. We started off in a circle and shared with one another where we're at and I was in awe. It's a totally awesome thing they are doing and I look forward to meeting with them again. Click <a href="http://www.onewavesurf.com/">HERE</a> to check em out!</p>
             </section>
             
             <section>
-                <h2>WWF's Panda symbol</h2>
-                <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+                <h2>Secret to Life</h2>
+                <p>Don't be a dick.</p>
             </section>
 
-                <aside>
-                    <h3>Epcot Center</h3>
-                    <p>The Epcot Center is a theme park in Disney World, Florida.</p>
-                </aside>
+<!-- Here's an aside tag section even though I still don't fully understand the purpose of a side tag...I read that they could be used as a side bar to an article but havn't found HOW to do that -->
+            
+            <div>
+            <h3>A demonstration of how to access an ASIDE element</h3>
 
+            <p>"I don't really understand aside tags but I will do more digging."</p>
+            
+            <aside id="myAside">
+              <h4>Cool Finding!</h4>
+              <p>Although I still don't really understand aside tags and their unique purpose...I stumbled upon this (see below).</p>
+            </aside>
+            
+            <p>Click the button to set the text color of the aside content to red.</p>
+            
+            <button onclick="myFunction()">Try it</button>
+            
+            <script>
+            function myFunction() {
+                var x = document.getElementById("myAside");
+                x.style.color = "red";
+            }
+            </script>
+            </div>
+<!--  FOOTER SECTION -->
     <footer>
         <a>Posted by: Hege Refsnes</a>
         <a>Contact information: <a href="mailto:someone@example.com">
